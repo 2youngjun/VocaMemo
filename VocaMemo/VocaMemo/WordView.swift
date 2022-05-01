@@ -7,16 +7,20 @@
 
 import SwiftUI
 
-struct Word: View {
+struct WordView: View {
     var body: some View {
         VStack{
-            Text("")
+            Text("Word List")
+            
+            
+            
+            
         }
     }
 }
 
-struct Word_Previews: PreviewProvider {
+struct WordView_Previews: PreviewProvider {
     static var previews: some View {
-        Word()
+        WordView()
     }
 }

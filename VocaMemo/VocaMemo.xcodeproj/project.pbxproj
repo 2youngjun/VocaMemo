@@ -14,9 +14,9 @@
 		8B76ED1B281CCFDC00F323A2 /* VocaMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED1A281CCFDC00F323A2 /* VocaMemoTests.swift */; };
 		8B76ED25281CCFDC00F323A2 /* VocaMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED24281CCFDC00F323A2 /* VocaMemoUITests.swift */; };
 		8B76ED27281CCFDC00F323A2 /* VocaMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED26281CCFDC00F323A2 /* VocaMemoUITestsLaunchTests.swift */; };
-		8B76ED34281CD13C00F323A2 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED33281CD13C00F323A2 /* Question.swift */; };
-		8B76ED36281CD15A00F323A2 /* Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED35281CD15A00F323A2 /* Check.swift */; };
-		8B76ED38281CD15D00F323A2 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED37281CD15D00F323A2 /* Word.swift */; };
+		8B76ED34281CD13C00F323A2 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED33281CD13C00F323A2 /* QuestionView.swift */; };
+		8B76ED36281CD15A00F323A2 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED35281CD15A00F323A2 /* CheckView.swift */; };
+		8B76ED38281CD15D00F323A2 /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED37281CD15D00F323A2 /* WordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +47,9 @@
 		8B76ED20281CCFDC00F323A2 /* VocaMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocaMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B76ED24281CCFDC00F323A2 /* VocaMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaMemoUITests.swift; sourceTree = "<group>"; };
 		8B76ED26281CCFDC00F323A2 /* VocaMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		8B76ED33281CD13C00F323A2 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		8B76ED35281CD15A00F323A2 /* Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check.swift; sourceTree = "<group>"; };
-		8B76ED37281CD15D00F323A2 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		8B76ED33281CD13C00F323A2 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		8B76ED35281CD15A00F323A2 /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
+		8B76ED37281CD15D00F323A2 /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				8B76ED0B281CCFD900F323A2 /* ContentView.swift */,
-				8B76ED33281CD13C00F323A2 /* Question.swift */,
-				8B76ED35281CD15A00F323A2 /* Check.swift */,
-				8B76ED37281CD15D00F323A2 /* Word.swift */,
+				8B76ED33281CD13C00F323A2 /* QuestionView.swift */,
+				8B76ED35281CD15A00F323A2 /* CheckView.swift */,
+				8B76ED37281CD15D00F323A2 /* WordView.swift */,
 				8B76ED0D281CCFDB00F323A2 /* Assets.xcassets */,
 				8B76ED09281CCFD900F323A2 /* VocaMemoApp.swift */,
 				8B76ED0F281CCFDB00F323A2 /* Preview Content */,
@@ -266,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B76ED36281CD15A00F323A2 /* Check.swift in Sources */,
-				8B76ED34281CD13C00F323A2 /* Question.swift in Sources */,
-				8B76ED38281CD15D00F323A2 /* Word.swift in Sources */,
+				8B76ED36281CD15A00F323A2 /* CheckView.swift in Sources */,
+				8B76ED34281CD13C00F323A2 /* QuestionView.swift in Sources */,
+				8B76ED38281CD15D00F323A2 /* WordView.swift in Sources */,
 				8B76ED0C281CCFD900F323A2 /* ContentView.swift in Sources */,
 				8B76ED0A281CCFD900F323A2 /* VocaMemoApp.swift in Sources */,
 			);
