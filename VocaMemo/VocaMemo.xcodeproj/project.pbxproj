@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B76ED0A281CCFD900F323A2 /* VocaMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED09281CCFD900F323A2 /* VocaMemoApp.swift */; };
+		8B76ED0C281CCFD900F323A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED0B281CCFD900F323A2 /* ContentView.swift */; };
+		8B76ED0E281CCFDB00F323A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B76ED0D281CCFDB00F323A2 /* Assets.xcassets */; };
+		8B76ED11281CCFDB00F323A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B76ED10281CCFDB00F323A2 /* Preview Assets.xcassets */; };
+		8B76ED1B281CCFDC00F323A2 /* VocaMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED1A281CCFDC00F323A2 /* VocaMemoTests.swift */; };
+		8B76ED25281CCFDC00F323A2 /* VocaMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED24281CCFDC00F323A2 /* VocaMemoUITests.swift */; };
+		8B76ED27281CCFDC00F323A2 /* VocaMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED26281CCFDC00F323A2 /* VocaMemoUITestsLaunchTests.swift */; };
+		8B76ED34281CD13C00F323A2 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED33281CD13C00F323A2 /* Question.swift */; };
+		8B76ED36281CD15A00F323A2 /* Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED35281CD15A00F323A2 /* Check.swift */; };
+		8B76ED38281CD15D00F323A2 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED37281CD15D00F323A2 /* Word.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B76ED17281CCFDC00F323A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B76ECFE281CCFD900F323A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B76ED05281CCFD900F323A2;
+			remoteInfo = VocaMemo;
+		};
+		8B76ED21281CCFDC00F323A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B76ECFE281CCFD900F323A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B76ED05281CCFD900F323A2;
+			remoteInfo = VocaMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B76ED06281CCFD900F323A2 /* VocaMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocaMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B76ED09281CCFD900F323A2 /* VocaMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaMemoApp.swift; sourceTree = "<group>"; };
+		8B76ED0B281CCFD900F323A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B76ED0D281CCFDB00F323A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B76ED10281CCFDB00F323A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B76ED16281CCFDC00F323A2 /* VocaMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocaMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B76ED1A281CCFDC00F323A2 /* VocaMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaMemoTests.swift; sourceTree = "<group>"; };
+		8B76ED20281CCFDC00F323A2 /* VocaMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocaMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B76ED24281CCFDC00F323A2 /* VocaMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaMemoUITests.swift; sourceTree = "<group>"; };
+		8B76ED26281CCFDC00F323A2 /* VocaMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B76ED33281CD13C00F323A2 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		8B76ED35281CD15A00F323A2 /* Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check.swift; sourceTree = "<group>"; };
+		8B76ED37281CD15D00F323A2 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B76ED03281CCFD900F323A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B76ED13281CCFDC00F323A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B76ED1D281CCFDC00F323A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B76ECFD281CCFD900F323A2 = {
+			isa = PBXGroup;
+			children = (
+				8B76ED08281CCFD900F323A2 /* VocaMemo */,
+				8B76ED19281CCFDC00F323A2 /* VocaMemoTests */,
+				8B76ED23281CCFDC00F323A2 /* VocaMemoUITests */,
+				8B76ED07281CCFD900F323A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B76ED07281CCFD900F323A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B76ED06281CCFD900F323A2 /* VocaMemo.app */,
+				8B76ED16281CCFDC00F323A2 /* VocaMemoTests.xctest */,
+				8B76ED20281CCFDC00F323A2 /* VocaMemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B76ED08281CCFD900F323A2 /* VocaMemo */ = {
+			isa = PBXGroup;
+			children = (
+				8B76ED0B281CCFD900F323A2 /* ContentView.swift */,
+				8B76ED33281CD13C00F323A2 /* Question.swift */,
+				8B76ED35281CD15A00F323A2 /* Check.swift */,
+				8B76ED37281CD15D00F323A2 /* Word.swift */,
+				8B76ED0D281CCFDB00F323A2 /* Assets.xcassets */,
+				8B76ED09281CCFD900F323A2 /* VocaMemoApp.swift */,
+				8B76ED0F281CCFDB00F323A2 /* Preview Content */,
+			);
+			path = VocaMemo;
+			sourceTree = "<group>";
+		};
+		8B76ED0F281CCFDB00F323A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B76ED10281CCFDB00F323A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B76ED19281CCFDC00F323A2 /* VocaMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B76ED1A281CCFDC00F323A2 /* VocaMemoTests.swift */,
+			);
+			path = VocaMemoTests;
+			sourceTree = "<group>";
+		};
+		8B76ED23281CCFDC00F323A2 /* VocaMemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B76ED24281CCFDC00F323A2 /* VocaMemoUITests.swift */,
+				8B76ED26281CCFDC00F323A2 /* VocaMemoUITestsLaunchTests.swift */,
+			);
+			path = VocaMemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B76ED05281CCFD900F323A2 /* VocaMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B76ED2A281CCFDC00F323A2 /* Build configuration list for PBXNativeTarget "VocaMemo" */;
+			buildPhases = (
+				8B76ED02281CCFD900F323A2 /* Sources */,
+				8B76ED03281CCFD900F323A2 /* Frameworks */,
+				8B76ED04281CCFD900F323A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocaMemo;
+			productName = VocaMemo;
+			productReference = 8B76ED06281CCFD900F323A2 /* VocaMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B76ED15281CCFDC00F323A2 /* VocaMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B76ED2D281CCFDC00F323A2 /* Build configuration list for PBXNativeTarget "VocaMemoTests" */;
+			buildPhases = (
+				8B76ED12281CCFDC00F323A2 /* Sources */,
+				8B76ED13281CCFDC00F323A2 /* Frameworks */,
+				8B76ED14281CCFDC00F323A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B76ED18281CCFDC00F323A2 /* PBXTargetDependency */,
+			);
+			name = VocaMemoTests;
+			productName = VocaMemoTests;
+			productReference = 8B76ED16281CCFDC00F323A2 /* VocaMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B76ED1F281CCFDC00F323A2 /* VocaMemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B76ED30281CCFDC00F323A2 /* Build configuration list for PBXNativeTarget "VocaMemoUITests" */;
+			buildPhases = (
+				8B76ED1C281CCFDC00F323A2 /* Sources */,
+				8B76ED1D281CCFDC00F323A2 /* Frameworks */,
+				8B76ED1E281CCFDC00F323A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B76ED22281CCFDC00F323A2 /* PBXTargetDependency */,
+			);
+			name = VocaMemoUITests;
+			productName = VocaMemoUITests;
+			productReference = 8B76ED20281CCFDC00F323A2 /* VocaMemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B76ECFE281CCFD900F323A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8B76ED05281CCFD900F323A2 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					8B76ED15281CCFDC00F323A2 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 8B76ED05281CCFD900F323A2;
+					};
+					8B76ED1F281CCFDC00F323A2 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 8B76ED05281CCFD900F323A2;
+					};
+				};
+			};
+			buildConfigurationList = 8B76ED01281CCFD900F323A2 /* Build configuration list for PBXProject "VocaMemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B76ECFD281CCFD900F323A2;
+			productRefGroup = 8B76ED07281CCFD900F323A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B76ED05281CCFD900F323A2 /* VocaMemo */,
+				8B76ED15281CCFDC00F323A2 /* VocaMemoTests */,
+				8B76ED1F281CCFDC00F323A2 /* VocaMemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B76ED04281CCFD900F323A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B76ED11281CCFDB00F323A2 /* Preview Assets.xcassets in Resources */,
+				8B76ED0E281CCFDB00F323A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B76ED14281CCFDC00F323A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B76ED1E281CCFDC00F323A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B76ED02281CCFD900F323A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B76ED36281CD15A00F323A2 /* Check.swift in Sources */,
+				8B76ED34281CD13C00F323A2 /* Question.swift in Sources */,
+				8B76ED38281CD15D00F323A2 /* Word.swift in Sources */,
+				8B76ED0C281CCFD900F323A2 /* ContentView.swift in Sources */,
+				8B76ED0A281CCFD900F323A2 /* VocaMemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B76ED12281CCFDC00F323A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B76ED1B281CCFDC00F323A2 /* VocaMemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B76ED1C281CCFDC00F323A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B76ED27281CCFDC00F323A2 /* VocaMemoUITestsLaunchTests.swift in Sources */,
+				8B76ED25281CCFDC00F323A2 /* VocaMemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B76ED18281CCFDC00F323A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B76ED05281CCFD900F323A2 /* VocaMemo */;
+			targetProxy = 8B76ED17281CCFDC00F323A2 /* PBXContainerItemProxy */;
+		};
+		8B76ED22281CCFDC00F323A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B76ED05281CCFD900F323A2 /* VocaMemo */;
+			targetProxy = 8B76ED21281CCFDC00F323A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B76ED28281CCFDC00F323A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B76ED29281CCFDC00F323A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B76ED2B281CCFDC00F323A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VocaMemo/Preview Content\"";
+				DEVELOPMENT_TEAM = V8U96P27D9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jun.VocaMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B76ED2C281CCFDC00F323A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VocaMemo/Preview Content\"";
+				DEVELOPMENT_TEAM = V8U96P27D9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jun.VocaMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B76ED2E281CCFDC00F323A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8U96P27D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jun.VocaMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocaMemo.app/VocaMemo";
+			};
+			name = Debug;
+		};
+		8B76ED2F281CCFDC00F323A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8U96P27D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jun.VocaMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocaMemo.app/VocaMemo";
+			};
+			name = Release;
+		};
+		8B76ED31281CCFDC00F323A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8U96P27D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jun.VocaMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VocaMemo;
+			};
+			name = Debug;
+		};
+		8B76ED32281CCFDC00F323A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8U96P27D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jun.VocaMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VocaMemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B76ED01281CCFD900F323A2 /* Build configuration list for PBXProject "VocaMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B76ED28281CCFDC00F323A2 /* Debug */,
+				8B76ED29281CCFDC00F323A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B76ED2A281CCFDC00F323A2 /* Build configuration list for PBXNativeTarget "VocaMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B76ED2B281CCFDC00F323A2 /* Debug */,
+				8B76ED2C281CCFDC00F323A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B76ED2D281CCFDC00F323A2 /* Build configuration list for PBXNativeTarget "VocaMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B76ED2E281CCFDC00F323A2 /* Debug */,
+				8B76ED2F281CCFDC00F323A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B76ED30281CCFDC00F323A2 /* Build configuration list for PBXNativeTarget "VocaMemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B76ED31281CCFDC00F323A2 /* Debug */,
+				8B76ED32281CCFDC00F323A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B76ECFE281CCFD900F323A2 /* Project object */;
+}
