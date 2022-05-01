@@ -9,6 +9,7 @@ import SwiftUI
 
 struct WordView: View {
     @State private var showingSheet = false
+    @State private var words: [Word] = Word.allWord
     
     var body: some View {
         VStack{
@@ -34,8 +35,17 @@ struct WordView: View {
                 }
             }
             .padding(.top, 15)
+            .padding(.bottom, 15)
             
-            
+            List{
+                ForEach(words, id: \.wordName) { word in
+                    HStack{
+                        Text("\(word.wordName)")
+                        Spacer()
+                        
+                    }
+                }
+            }
             
             
             Spacer()

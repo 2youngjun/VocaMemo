@@ -18,6 +18,8 @@
 		8B76ED36281CD15A00F323A2 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED35281CD15A00F323A2 /* CheckView.swift */; };
 		8B76ED38281CD15D00F323A2 /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED37281CD15D00F323A2 /* WordView.swift */; };
 		8B76ED3A281E2EFB00F323A2 /* WordSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED39281E2EFB00F323A2 /* WordSheetView.swift */; };
+		8B76ED3D281E3DB400F323A2 /* wordData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B76ED3C281E3DB400F323A2 /* wordData.json */; };
+		8B76ED45281E58BB00F323A2 /* JSONManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED44281E58BB00F323A2 /* JSONManage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		8B76ED35281CD15A00F323A2 /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
 		8B76ED37281CD15D00F323A2 /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
 		8B76ED39281E2EFB00F323A2 /* WordSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSheetView.swift; sourceTree = "<group>"; };
+		8B76ED3C281E3DB400F323A2 /* wordData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wordData.json; sourceTree = "<group>"; };
+		8B76ED44281E58BB00F323A2 /* JSONManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 			children = (
 				8B76ED37281CD15D00F323A2 /* WordView.swift */,
 				8B76ED39281E2EFB00F323A2 /* WordSheetView.swift */,
+				8B76ED3C281E3DB400F323A2 /* wordData.json */,
+				8B76ED44281E58BB00F323A2 /* JSONManage.swift */,
 			);
 			path = Word;
 			sourceTree = "<group>";
@@ -253,6 +259,7 @@
 			files = (
 				8B76ED11281CCFDB00F323A2 /* Preview Assets.xcassets in Resources */,
 				8B76ED0E281CCFDB00F323A2 /* Assets.xcassets in Resources */,
+				8B76ED3D281E3DB400F323A2 /* wordData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +286,7 @@
 			files = (
 				8B76ED36281CD15A00F323A2 /* CheckView.swift in Sources */,
 				8B76ED34281CD13C00F323A2 /* QuestionView.swift in Sources */,
+				8B76ED45281E58BB00F323A2 /* JSONManage.swift in Sources */,
 				8B76ED38281CD15D00F323A2 /* WordView.swift in Sources */,
 				8B76ED0C281CCFD900F323A2 /* ContentView.swift in Sources */,
 				8B76ED3A281E2EFB00F323A2 /* WordSheetView.swift in Sources */,
