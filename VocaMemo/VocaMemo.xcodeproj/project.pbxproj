@@ -20,6 +20,7 @@
 		8B76ED3A281E2EFB00F323A2 /* WordSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED39281E2EFB00F323A2 /* WordSheetView.swift */; };
 		8B76ED3D281E3DB400F323A2 /* wordData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B76ED3C281E3DB400F323A2 /* wordData.json */; };
 		8B76ED45281E58BB00F323A2 /* JSONManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED44281E58BB00F323A2 /* JSONManage.swift */; };
+		8B76ED47281FA90200F323A2 /* AllWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED46281FA90200F323A2 /* AllWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		8B76ED39281E2EFB00F323A2 /* WordSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSheetView.swift; sourceTree = "<group>"; };
 		8B76ED3C281E3DB400F323A2 /* wordData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wordData.json; sourceTree = "<group>"; };
 		8B76ED44281E58BB00F323A2 /* JSONManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManage.swift; sourceTree = "<group>"; };
+		8B76ED46281FA90200F323A2 /* AllWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				8B76ED39281E2EFB00F323A2 /* WordSheetView.swift */,
 				8B76ED3C281E3DB400F323A2 /* wordData.json */,
 				8B76ED44281E58BB00F323A2 /* JSONManage.swift */,
+				8B76ED46281FA90200F323A2 /* AllWord.swift */,
 			);
 			path = Word;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				8B76ED45281E58BB00F323A2 /* JSONManage.swift in Sources */,
 				8B76ED38281CD15D00F323A2 /* WordView.swift in Sources */,
 				8B76ED0C281CCFD900F323A2 /* ContentView.swift in Sources */,
+				8B76ED47281FA90200F323A2 /* AllWord.swift in Sources */,
 				8B76ED3A281E2EFB00F323A2 /* WordSheetView.swift in Sources */,
 				8B76ED0A281CCFD900F323A2 /* VocaMemoApp.swift in Sources */,
 			);

@@ -11,39 +11,68 @@
 import Foundation
 
 // manager -> model of the word
-struct Word: Codable {
-    let id : Int
-    
+struct Word: Codable, Identifiable {
+    var id : Int
     var wordName, meaning, example: String
     var bookmark: Bool
+    var isOn: Bool
+    
+//    mutating func toggleIsOn() {
+//        self.isOn.toggle()
+//    }
     
     // helper functions which are going to be available to the whole program
     // retrieve all word here
-    static let allWord: [Word] = Bundle.main.decode(file: "wordData.json")
+    // static let allWord: [Word] = Bundle.main.decode(file: "wordData.json")
     // -> this is going to return an array of word
     
     // for editing swiftui view, also providing example
-    static let sampleWord : Word = allWord[0]
+    // static let sampleWord : Word = allWord[0]
 }
 
 // extension Word = Identifiable {}
 
-// way to decode json data
-extension Bundle {
-    func decode<T: Decodable>(file: String) -> T {
-        guard let url = self.url(forResource: file, withExtension: nil) else {
-            fatalError("Could not find \(file) in the project!")
-        }
-        guard let data = try? Data(contentsOf: url) else {
-            fatalError("Could not load \(file) in the project!")
-        }
-        
+func load<T: Decodable>(_ filename: String) -> T {
+    let data: Data
+
+    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+    else {
+        fatalError("Couldn't find \(filename) in main bundle.")
+    }
+
+    do {
+        data = try Data(contentsOf: file)
+    } catch {
+        fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
+    }
+
+    do {
         let decoder = JSONDecoder()
+        return try decoder.decode(T.self, from: data)
+    } catch {
+        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+    }
+}
+
+
+func save(data: [Word]) {
+    let jsonEncoder = JSONEncoder()
+    
+    guard let file = Bundle.main.url(forResource: "wordData.json", withExtension: nil)
+    else {
+        fatalError("Couldn't find wordData.json in main bundle.")
+    }
+    
+    do {
+        let encodedData = try jsonEncoder.encode(data)
         
-        guard let loadedData = try? decoder.decode(T.self, from: data) else {
-            fatalError("Could not decode \(file) in the project!")
+        do {
+            try encodedData.write(to: file.standardizedFileURL)
         }
-        
-        return loadedData
+        catch let error as NSError {
+            print(error)
+        }
+    } catch {
+        print(error)
     }
 }

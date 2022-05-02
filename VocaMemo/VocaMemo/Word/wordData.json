@@ -4,20 +4,23 @@
         "wordName": "substantiate",
         "meaning": "입증하다.",
         "example": "Robert Peary was unable to substantiate that he had reached the North Pole in 1909.",
-        "bookmark": false
+        "bookmark": false,
+        "isOn": false
     },
     {
         "id": 2,
         "wordName": "invoke",
         "meaning": "빌다. 기원하다.",
         "example": "The Aztecs sometimes invoked their gods to bring a good harvest.",
-        "bookmark": true
+        "bookmark": true,
+        "isOn": false
     },
     {
         "id": 3,
         "wordName": "malleable",
         "meaning": "두들겨 펼 수 있는",
         "example": "When heated to high temperatures, iron and steel become malleable.",
-        "bookmark": false
+        "bookmark": false,
+        "isOn": false
     }
 ]

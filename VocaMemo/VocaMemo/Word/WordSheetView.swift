@@ -13,6 +13,13 @@ struct WordSheetView: View {
     @State private var wordExample = ""
     
     @Environment(\.presentationMode) var presentationMode
+    @EnvironmentObject var allWord : AllWord
+    
+    
+    func addWord(){
+        allWord.wordList.insert(Word(id: allWord.wordList.count + 1, wordName: wordName, meaning: wordMeaning, example: wordExample, bookmark: false, isOn: false), at: 0)
+        save(data: allWord.wordList)
+    }
     
     var body: some View {
         VStack{
@@ -24,7 +31,7 @@ struct WordSheetView: View {
                 Spacer()
                 
                 Button(action: {
-                    
+                    addWord()
                     
                     self.presentationMode.wrappedValue.dismiss()
                 }){
@@ -48,6 +55,7 @@ struct WordSheetView: View {
                     .foregroundColor(.brown)
                     .bold()
                 TextField("Type Word", text: $wordName)
+                    .textCase(.lowercase)
                 
                 Text("Meaning")
                     .foregroundColor(.brown)

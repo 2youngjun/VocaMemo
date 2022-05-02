@@ -9,9 +9,10 @@ import SwiftUI
 
 struct WordView: View {
     @State private var showingSheet = false
-    @State private var words: [Word] = Word.allWord
-    @State private var wordsView: [Bool] = [Bool](repeating: false, count: Word.allWord.count)
-
+    @State private var wordsView: [Bool] = [Bool](repeating: false, count: (load("wordData.json") as [Word]).count)
+    @EnvironmentObject var allWord: AllWord
+    @State var searchText = ""
+    
     var body: some View {
         VStack{
             HStack{
@@ -40,17 +41,26 @@ struct WordView: View {
             .padding(.bottom, 15)
             
             List{
-                ForEach(words.indices) { index in
+                ForEach(allWord.wordList) { word in
                     VStack{
                         HStack{
-                            Text("\(words[index].wordName)")
+                            Text("\(word.wordName)")
                                 .font(.system(size: 20))
                                 .bold()
                             
                             Spacer()
                             
                             Button(action: {
-                                    wordsView[index].toggle()
+//                                word.isOn.toggle()
+                                var index = 0
+                                for tempWord in allWord.wordList {
+                                    if tempWord.id == word.id {
+                                        break
+                                    } else {
+                                        index += 1
+                                    }
+                                }
+                                allWord.wordList[index].isOn.toggle()
                             }){
                                 Image(systemName: "chevron.down.circle")
                                     .resizable().aspectRatio(contentMode: .fit)
@@ -61,27 +71,25 @@ struct WordView: View {
                         
                         VStack(spacing: 10){
                             HStack{
-                                Text("\(words[index].meaning)")
+                                Text("\(word.meaning)")
                                     .font(.system(size: 16))
                                 Spacer()
                             }
                             HStack{
-                                Text("\(words[index].example)")
+                                Text("\(word.example)")
                                     .font(.system(size: 16))
                                 Spacer()
                             }
 
                         }
-                        .frame(width: .infinity, height: wordsView[index] ? 70 : 0)
-                        .opacity(wordsView[index] ? 100 : 0)
+                        .frame(width: .infinity, height: word.isOn ? 70 : 0)
+                        .opacity(word.isOn ? 100 : 0)
                     }
                 }
             }
             .listStyle(PlainListStyle())
             
             Spacer()
-            
-            
         }
     }
 }
