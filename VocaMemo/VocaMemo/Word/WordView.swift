@@ -11,7 +11,12 @@ struct WordView: View {
     @State private var showingSheet = false
     @State private var wordsView: [Bool] = [Bool](repeating: false, count: (load("wordData.json") as [Word]).count)
     @EnvironmentObject var allWord: AllWord
-    @State var searchText = ""
+//    @State var searchText = ""
+    
+    func deleteWord(at offsets: IndexSet){
+        allWord.wordList.remove(atOffsets: offsets)
+        save(data: allWord.wordList)
+    }
     
     var body: some View {
         VStack{
@@ -86,6 +91,7 @@ struct WordView: View {
                         .opacity(word.isOn ? 100 : 0)
                     }
                 }
+                .onDelete(perform: deleteWord)
             }
             .listStyle(PlainListStyle())
             
