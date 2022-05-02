@@ -12,7 +12,7 @@ import Foundation
 
 // manager -> model of the word
 struct Word: Codable {
-    // let id : UUID = UUID()
+    let id : Int
     
     var wordName, meaning, example: String
     var bookmark: Bool
@@ -36,8 +36,8 @@ extension Bundle {
         }
         guard let data = try? Data(contentsOf: url) else {
             fatalError("Could not load \(file) in the project!")
-
         }
+        
         let decoder = JSONDecoder()
         
         guard let loadedData = try? decoder.decode(T.self, from: data) else {
