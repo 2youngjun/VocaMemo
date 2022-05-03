@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct VocaMemoApp: App {
+    @StateObject private var allWord = AllWord()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(allWord)
         }
     }
 }
