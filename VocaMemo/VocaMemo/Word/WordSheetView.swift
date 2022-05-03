@@ -15,7 +15,6 @@ struct WordSheetView: View {
     @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var allWord : AllWord
     
-    
     func addWord(){
         allWord.wordList.insert(Word(id: allWord.wordList.count + 1, wordName: wordName, meaning: wordMeaning, example: wordExample, bookmark: false, isOn: false), at: 0)
         save(data: allWord.wordList)
@@ -55,17 +54,20 @@ struct WordSheetView: View {
                     .foregroundColor(.brown)
                     .bold()
                 TextField("Type Word", text: $wordName)
-                    .textCase(.lowercase)
+                    .textInputAutocapitalization(.never)
+                    .disableAutocorrection(true)
                 
                 Text("Meaning")
                     .foregroundColor(.brown)
                     .bold()
                 TextField("Type Meaning", text: $wordMeaning)
+                    .disableAutocorrection(true)
                 
                 Text("Example")
                     .foregroundColor(.brown)
                     .bold()
                 TextField("Type Example", text: $wordExample)
+                    .disableAutocorrection(true)
             }
             
             Spacer()
