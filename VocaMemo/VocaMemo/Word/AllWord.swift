@@ -9,4 +9,5 @@ import Foundation
 
 final class AllWord: ObservableObject{
     @Published var wordList: [Word] = load("wordData.json")
+    
 }

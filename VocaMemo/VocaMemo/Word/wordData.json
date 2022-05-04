@@ -22,5 +22,101 @@
         "example": "When heated to high temperatures, iron and steel become malleable.",
         "bookmark": false,
         "isOn": false
+    },
+    {
+        "id": 4,
+        "wordName": "encroachment",
+        "meaning": "잠식, 침입",
+        "example": "The encroachment of genetically modified organisms into the food supply worries many consumers",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 5,
+        "wordName": "intrigue",
+        "meaning": "흥미를 끌다.",
+        "example": "The discovery of a new planet that is similar to Earth intrigued scientists.",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 6,
+        "wordName": "implausible",
+        "meaning": "믿기 어려운",
+        "example": "As implausible as it seems, a snake and a hamster in a Tokyo zoo have become friends.",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 7,
+        "wordName": "decline",
+        "meaning": "거절하다.",
+        "example": "Daniel declined to go to the movie theater with Lisa despite her repeated invitations.",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 8,
+        "wordName": "heterogeneous",
+        "meaning": "잡다한, 혼성의",
+        "example": "English includes words from a hetergeneous collection of other languages.",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 9,
+        "wordName": "conspicuous",
+        "meaning": "뚜렷한",
+        "example": "Sharon's addiction to alcohol became conspicuous as she lost control of her drinking habit.",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 10,
+        "wordName": "abrupt",
+        "meaning": "갑작스러운",
+        "example": "The airbag was wrongly released when the car made an abrupt stop.",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 11,
+        "wordName": "colossal",
+        "meaning": "거대한, 엄청난",
+        "example": "The government paid a colossal sum for accidents regardless of the cause.",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 12,
+        "wordName": "diffuse",
+        "meaning": "퍼뜨리다.",
+        "example": "The stove diffused its warmth all over the house.",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 13,
+        "wordName": "susceptible to",
+        "meaning": "~에 걸리기 쉬운, 영향 받기 쉬운",
+        "example": "Thanks to her healthy immune system, Mr. Jun was not susceptible to the flu.",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 14,
+        "wordName": "comparative",
+        "meaning": "상대적인",
+        "example": "Next to economy-class passengers, those seated in the business-class section travel in comparative comfort.",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 15,
+        "wordName": "sporadically",
+        "meaning": "이따금씩",
+        "example": "The Sun sporadically emits bursts of energy known as solar storms.",
+        "bookmark": false,
+        "isOn": false
     }
 ]

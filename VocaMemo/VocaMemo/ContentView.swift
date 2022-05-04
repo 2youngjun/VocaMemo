@@ -26,8 +26,6 @@ struct ContentView: View {
                     Image(systemName: "checkmark.circle")
                     Text("Check")
                 }.tag(2)
-            
-        
         }
         .onAppear() {
             UITabBar.appearance().barTintColor = .white
