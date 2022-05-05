@@ -18,16 +18,6 @@ struct WordView: View {
         save(data: allWord.wordList)
     }
     
-    var filteredWord: [Word] {
-        if searchText.isEmpty {
-            return allWord.wordList
-        } else {
-            return allWord.wordList.filter {
-                $0.wordName.lowercased().contains(searchText.lowercased())
-            }
-        }
-    }
-    
     var body: some View {
         NavigationView{
             VStack{
@@ -53,7 +43,6 @@ struct WordView: View {
                     }
                 }
                 .padding(.top, 15)
-                .padding(.bottom, 15)
                 
                 List{
                     ForEach(allWord.wordList) { word in
@@ -69,8 +58,6 @@ struct WordView: View {
                                         .font(.system(size: 18))
                                         .padding(.top, 10)
                                 }
-                                
-                                   
                                 
                                 Spacer()
                                 
