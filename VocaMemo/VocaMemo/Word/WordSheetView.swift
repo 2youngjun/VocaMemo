@@ -11,12 +11,13 @@ struct WordSheetView: View {
     @State private var wordName = ""
     @State private var wordMeaning = ""
     @State private var wordExample = ""
+    @State private var wordSynoym = ""
     
     @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var allWord : AllWord
     
     func addWord(){
-        allWord.wordList.insert(Word(id: allWord.wordList.count + 1, wordName: wordName, meaning: wordMeaning, example: wordExample, bookmark: false, isOn: false), at: 0)
+        allWord.wordList.insert(Word(id: allWord.wordList.count + 1, wordName: wordName, meaning: wordMeaning, example: wordExample, synoym: wordSynoym, bookmark: false, isOn: false), at: 0)
         save(data: allWord.wordList)
     }
     
@@ -67,6 +68,12 @@ struct WordSheetView: View {
                     .foregroundColor(.brown)
                     .bold()
                 TextField("Type Example", text: $wordExample)
+                    .disableAutocorrection(true)
+                
+                Text("Synoym")
+                    .foregroundColor(.brown)
+                    .bold()
+                TextField("Type Synoym", text: $wordSynoym)
                     .disableAutocorrection(true)
             }
             

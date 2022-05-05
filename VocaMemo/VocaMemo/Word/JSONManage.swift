@@ -13,7 +13,7 @@ import Foundation
 // manager -> model of the word
 struct Word: Codable, Identifiable {
     var id : Int
-    var wordName, meaning, example: String
+    var wordName, meaning, example, synoym: String
     var bookmark: Bool
     var isOn: Bool
     

@@ -4,7 +4,8 @@
         "wordName": "substantiate",
         "meaning": "입증하다.",
         "example": "Robert Peary was unable to substantiate that he had reached the North Pole in 1909.",
-        "bookmark": false,
+        "synoym" : "authenticate, verify, confirm",
+        "bookmark": true,
         "isOn": false
     },
     {
@@ -12,6 +13,7 @@
         "wordName": "invoke",
         "meaning": "빌다. 기원하다.",
         "example": "The Aztecs sometimes invoked their gods to bring a good harvest.",
+        "synoym" : "call upon, conjure",
         "bookmark": true,
         "isOn": false
     },
@@ -20,7 +22,8 @@
         "wordName": "malleable",
         "meaning": "두들겨 펼 수 있는",
         "example": "When heated to high temperatures, iron and steel become malleable.",
-        "bookmark": false,
+        "synoym" : "flexible",
+        "bookmark": true,
         "isOn": false
     },
     {
@@ -28,6 +31,7 @@
         "wordName": "encroachment",
         "meaning": "잠식, 침입",
         "example": "The encroachment of genetically modified organisms into the food supply worries many consumers",
+        "synoym" : "invasion, intrusion",
         "bookmark": false,
         "isOn": false
     },
@@ -36,7 +40,8 @@
         "wordName": "intrigue",
         "meaning": "흥미를 끌다.",
         "example": "The discovery of a new planet that is similar to Earth intrigued scientists.",
-        "bookmark": false,
+        "synoym" : "fascinate, attract",
+        "bookmark": true,
         "isOn": false
     },
     {
@@ -44,7 +49,8 @@
         "wordName": "implausible",
         "meaning": "믿기 어려운",
         "example": "As implausible as it seems, a snake and a hamster in a Tokyo zoo have become friends.",
-        "bookmark": false,
+        "synoym" : "unlikely, improbable",
+        "bookmark": true,
         "isOn": false
     },
     {
@@ -52,6 +58,7 @@
         "wordName": "decline",
         "meaning": "거절하다.",
         "example": "Daniel declined to go to the movie theater with Lisa despite her repeated invitations.",
+        "synoym" : "refuse",
         "bookmark": false,
         "isOn": false
     },
@@ -59,7 +66,8 @@
         "id": 8,
         "wordName": "heterogeneous",
         "meaning": "잡다한, 혼성의",
-        "example": "English includes words from a hetergeneous collection of other languages.",
+        "example": "English includes words from a heterogeneous collection of other languages.",
+        "synoym" : "assorted, varied",
         "bookmark": false,
         "isOn": false
     },
@@ -68,6 +76,7 @@
         "wordName": "conspicuous",
         "meaning": "뚜렷한",
         "example": "Sharon's addiction to alcohol became conspicuous as she lost control of her drinking habit.",
+        "synoym" : "noticeable, prominent",
         "bookmark": false,
         "isOn": false
     },
@@ -76,6 +85,7 @@
         "wordName": "abrupt",
         "meaning": "갑작스러운",
         "example": "The airbag was wrongly released when the car made an abrupt stop.",
+        "synoym" : "sudden, sharp",
         "bookmark": false,
         "isOn": false
     },
@@ -84,6 +94,7 @@
         "wordName": "colossal",
         "meaning": "거대한, 엄청난",
         "example": "The government paid a colossal sum for accidents regardless of the cause.",
+        "synoym" : "monstrous",
         "bookmark": false,
         "isOn": false
     },
@@ -92,6 +103,7 @@
         "wordName": "diffuse",
         "meaning": "퍼뜨리다.",
         "example": "The stove diffused its warmth all over the house.",
+        "synoym" : "distribute, scatter",
         "bookmark": false,
         "isOn": false
     },
@@ -100,7 +112,8 @@
         "wordName": "susceptible to",
         "meaning": "~에 걸리기 쉬운, 영향 받기 쉬운",
         "example": "Thanks to her healthy immune system, Mr. Jun was not susceptible to the flu.",
-        "bookmark": false,
+        "synoym" : "vulnerable to, prone to",
+        "bookmark": true,
         "isOn": false
     },
     {
@@ -108,6 +121,7 @@
         "wordName": "comparative",
         "meaning": "상대적인",
         "example": "Next to economy-class passengers, those seated in the business-class section travel in comparative comfort.",
+        "synoym" : "relative",
         "bookmark": false,
         "isOn": false
     },
@@ -116,6 +130,61 @@
         "wordName": "sporadically",
         "meaning": "이따금씩",
         "example": "The Sun sporadically emits bursts of energy known as solar storms.",
+        "synoym" : "at intervals, infrequently",
+        "bookmark": true,
+        "isOn": false
+    },
+    {
+        "id": 16,
+        "wordName": "entail",
+        "meaning": "수반하다, 일으키다. 필요로 하다",
+        "example": "Farming has always emtailed long hours of labor",
+        "synoym" : "require, demand",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 17,
+        "wordName": "supremacy",
+        "meaning": "우위",
+        "example": "In the 1920s, Ford los the battle for supremacy in the automobile industry.",
+        "synoym" : "dominance, ascendancy",
+        "bookmark": true,
+        "isOn": false
+    },
+    {
+        "id": 18,
+        "wordName": "ravage",
+        "meaning": "파괴하다.",
+        "example": "The large hurricane that ravaged the city of New Orleans cauesed extensive flooding.",
+        "synoym" : "demolish, devastate",
+        "bookmark": false,
+        "isOn": false
+    },
+    {
+        "id": 19,
+        "wordName": "plug",
+        "meaning": "메우다. 채우다.",
+        "example": "The townspeople plugged the old, unused well with concrete so no one would fall in accidentally",
+        "synoym" : "fill up, stuff, pack",
+        "bookmark": true,
+        "isOn": false
+    },
+    {
+        "id": 20,
+        "wordName": "discrepancy",
+        "meaning": "불일치",
+        "example": "Check your tax forms to ensure there is no discrepancy between your reported and actual income.",
+        "synoym" : "inconsistency, disparity, dissimilarity",
+        "bookmark": true,
+        "isOn": false
+    },
+    {
+        "id": 21,
+        "wordName": "elucidate",
+        "meaning": "(명료하게) 설명하다.",
+        "example": "Dr. Magness further elucidated the topic of his lecture on mink farming through a series of examples.",
+        "synoym" : "clarify, explain",
         "bookmark": false,
         "isOn": false
     }

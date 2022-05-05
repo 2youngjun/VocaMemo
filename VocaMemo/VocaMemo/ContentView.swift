@@ -18,13 +18,13 @@ struct ContentView: View {
                 }.tag(0)
             WordView()
                 .tabItem{
-                    Image(systemName: "pencil.tip.crop.circle")
+                    Image(systemName: "book")
                     Text("Word")
                 }.tag(1)
             CheckView()
                 .tabItem{
                     Image(systemName: "checkmark.circle")
-                    Text("Check")
+                    Text("Daily")
                 }.tag(2)
         }
         .onAppear() {

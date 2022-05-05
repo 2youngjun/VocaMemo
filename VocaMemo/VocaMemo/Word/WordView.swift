@@ -70,6 +70,8 @@ struct WordView: View {
                                         .padding(.top, 10)
                                 }
                                 
+                                   
+                                
                                 Spacer()
                                 
                                 Button(action: {
