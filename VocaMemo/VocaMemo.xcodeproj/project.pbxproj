@@ -21,6 +21,7 @@
 		8B76ED3D281E3DB400F323A2 /* wordData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B76ED3C281E3DB400F323A2 /* wordData.json */; };
 		8B76ED45281E58BB00F323A2 /* JSONManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED44281E58BB00F323A2 /* JSONManage.swift */; };
 		8B76ED47281FA90200F323A2 /* AllWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED46281FA90200F323A2 /* AllWord.swift */; };
+		8B76ED4A282266FD00F323A2 /* randomIndexWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76ED49282266FC00F323A2 /* randomIndexWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		8B76ED3C281E3DB400F323A2 /* wordData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wordData.json; sourceTree = "<group>"; };
 		8B76ED44281E58BB00F323A2 /* JSONManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManage.swift; sourceTree = "<group>"; };
 		8B76ED46281FA90200F323A2 /* AllWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWord.swift; sourceTree = "<group>"; };
+		8B76ED49282266FC00F323A2 /* randomIndexWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomIndexWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +112,7 @@
 			children = (
 				8B76ED0B281CCFD900F323A2 /* ContentView.swift */,
 				8B76ED33281CD13C00F323A2 /* QuestionView.swift */,
-				8B76ED35281CD15A00F323A2 /* CheckView.swift */,
+				8B76ED482822669400F323A2 /* Check */,
 				8B76ED3B281E2F0400F323A2 /* Word */,
 				8B76ED0D281CCFDB00F323A2 /* Assets.xcassets */,
 				8B76ED09281CCFD900F323A2 /* VocaMemoApp.swift */,
@@ -154,6 +156,15 @@
 				8B76ED46281FA90200F323A2 /* AllWord.swift */,
 			);
 			path = Word;
+			sourceTree = "<group>";
+		};
+		8B76ED482822669400F323A2 /* Check */ = {
+			isa = PBXGroup;
+			children = (
+				8B76ED35281CD15A00F323A2 /* CheckView.swift */,
+				8B76ED49282266FC00F323A2 /* randomIndexWord.swift */,
+			);
+			name = Check;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B76ED36281CD15A00F323A2 /* CheckView.swift in Sources */,
+				8B76ED4A282266FD00F323A2 /* randomIndexWord.swift in Sources */,
 				8B76ED34281CD13C00F323A2 /* QuestionView.swift in Sources */,
 				8B76ED45281E58BB00F323A2 /* JSONManage.swift in Sources */,
 				8B76ED38281CD15D00F323A2 /* WordView.swift in Sources */,

@@ -9,12 +9,25 @@ import SwiftUI
 
 struct CheckView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            HStack{
+                Text("Today's Word")
+                    .font(.title)
+                    .bold()
+                    .padding(.leading, 18)
+                    
+                Spacer()
+            }
+            .padding(.top, 15)
+            
+            randomIndexWord()
+            
+            Spacer()
+            
+            randomIndexWord()
+            
+            Spacer()
+        }
     }
 }
 
-struct CheckView_Previews: PreviewProvider {
-    static var previews: some View {
-        CheckView()
-    }
-}
