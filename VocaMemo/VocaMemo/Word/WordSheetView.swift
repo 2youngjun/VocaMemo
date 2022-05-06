@@ -17,7 +17,8 @@ struct WordSheetView: View {
     @EnvironmentObject var allWord : AllWord
     
     func addWord(){
-        allWord.wordList.insert(Word(id: allWord.wordList.count + 1, wordName: wordName, meaning: wordMeaning, example: wordExample, synoym: wordSynoym, bookmark: false, isOn: false), at: 0)
+        allWord.wordList.insert(Word(id: allWord.totalNumber + 1, wordName: wordName, meaning: wordMeaning, example: wordExample, synoym: wordSynoym, bookmark: false, isOn: false), at: 0)
+        allWord.totalNumber += 1
         save(data: allWord.wordList)
     }
     
