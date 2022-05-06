@@ -38,8 +38,6 @@ struct QuestionView: View {
                                         .padding(.top, 10)
                                 }
                                 
-                                   
-                                
                                 Spacer()
                                 
                                 Button(action: {

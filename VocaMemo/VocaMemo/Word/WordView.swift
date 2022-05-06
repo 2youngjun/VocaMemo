@@ -48,6 +48,32 @@ struct WordView: View {
                     ForEach(allWord.wordList) { word in
                         VStack{
                             HStack{
+                                Button(action: {
+                                    var index = 0
+                                    for tempWord in allWord.wordList {
+                                        if tempWord.id == word.id {
+                                            break
+                                        } else {
+                                            index += 1
+                                        }
+                                    }
+                                    allWord.wordList[index].bookmark.toggle()
+                                }){
+                                    if word.bookmark {
+                                        Image(systemName: "bookmark.fill")
+                                            .resizable()
+                                            .foregroundColor(.yellow)
+                                            .frame(width: 12, height: 17)
+                                            .padding(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 0))
+                                    } else {
+                                        Image(systemName: "bookmark")
+                                            .resizable()
+                                            .foregroundColor(.yellow)
+                                            .frame(width: 12, height: 17)
+                                            .padding(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 0))
+                                    }
+                                }
+                                
                                 if word.isOn {
                                     Text("\(word.wordName)")
                                         .font(.system(size: 18))
@@ -63,15 +89,15 @@ struct WordView: View {
                                 
                                 Button(action: {
     //                                word.isOn.toggle()
-                                    var index = 0
-                                    for tempWord in allWord.wordList {
-                                        if tempWord.id == word.id {
+                                    var index2 = 0
+                                    for tempWord2 in allWord.wordList {
+                                        if tempWord2.id == word.id {
                                             break
                                         } else {
-                                            index += 1
+                                            index2 += 1
                                         }
                                     }
-                                    allWord.wordList[index].isOn.toggle()
+                                    allWord.wordList[index2].isOn.toggle()
                                 }){
                                     Image(systemName: "chevron.down.circle")
                                         .resizable().aspectRatio(contentMode: .fit)
@@ -79,7 +105,7 @@ struct WordView: View {
                                         .foregroundColor(word.isOn ? .black : .gray)
                                         .padding(.top, 10)
                                 }
-                            }
+                            }.buttonStyle(BorderlessButtonStyle())
                             
                             VStack(spacing: 10){
                                 HStack{
@@ -108,7 +134,7 @@ struct WordView: View {
                 
                 Spacer()
             }.navigationBarHidden(true)
-        }.searchable(text: $searchText)
+        }
     }
 }
 
