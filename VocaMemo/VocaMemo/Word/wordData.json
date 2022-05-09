@@ -5,7 +5,7 @@
         "meaning": "입증하다.",
         "example": "Robert Peary was unable to substantiate that he had reached the North Pole in 1909.",
         "synoym" : "authenticate, verify, confirm",
-        "bookmark": true,
+        "bookmark": false,
         "isOn": false
     },
     {
@@ -14,7 +14,7 @@
         "meaning": "빌다. 기원하다.",
         "example": "The Aztecs sometimes invoked their gods to bring a good harvest.",
         "synoym" : "call upon, conjure",
-        "bookmark": true,
+        "bookmark": false,
         "isOn": false
     },
     {
@@ -23,7 +23,7 @@
         "meaning": "두들겨 펼 수 있는",
         "example": "When heated to high temperatures, iron and steel become malleable.",
         "synoym" : "flexible",
-        "bookmark": true,
+        "bookmark": false,
         "isOn": false
     },
     {
@@ -32,7 +32,7 @@
         "meaning": "잠식, 침입",
         "example": "The encroachment of genetically modified organisms into the food supply worries many consumers",
         "synoym" : "invasion, intrusion",
-        "bookmark": false,
+        "bookmark": true,
         "isOn": false
     },
     {
@@ -50,7 +50,7 @@
         "meaning": "믿기 어려운",
         "example": "As implausible as it seems, a snake and a hamster in a Tokyo zoo have become friends.",
         "synoym" : "unlikely, improbable",
-        "bookmark": true,
+        "bookmark": false,
         "isOn": false
     },
     {
@@ -59,7 +59,7 @@
         "meaning": "거절하다.",
         "example": "Daniel declined to go to the movie theater with Lisa despite her repeated invitations.",
         "synoym" : "refuse",
-        "bookmark": false,
+        "bookmark": true,
         "isOn": false
     },
     {
@@ -68,7 +68,7 @@
         "meaning": "잡다한, 혼성의",
         "example": "English includes words from a heterogeneous collection of other languages.",
         "synoym" : "assorted, varied",
-        "bookmark": false,
+        "bookmark": true,
         "isOn": false
     },
     {
@@ -77,7 +77,7 @@
         "meaning": "뚜렷한",
         "example": "Sharon's addiction to alcohol became conspicuous as she lost control of her drinking habit.",
         "synoym" : "noticeable, prominent",
-        "bookmark": false,
+        "bookmark": true,
         "isOn": false
     },
     {
@@ -95,7 +95,7 @@
         "meaning": "거대한, 엄청난",
         "example": "The government paid a colossal sum for accidents regardless of the cause.",
         "synoym" : "monstrous",
-        "bookmark": false,
+        "bookmark": true,
         "isOn": false
     },
     {
